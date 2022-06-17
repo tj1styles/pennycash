@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plugins/animate/animate.min.css">
+    <link rel="stylesheet" href="./plugins/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./otp.css">
+    <title>One-Time Password</title>
+</head>
+<body>
+      
+    <section>
+        <div class="contained">
+            <div class="col-md-7 col1">
+                <div class="card shadow">
+                    <div class="wrongNo pt-5">
+                        <p>Wrong number? Click Here</p>
+                    </div>
+                    <div class="enterOtpText">
+                        <h2>Enter OTP</h2>
+                        <p>A code has been sent to <br> your number <span class="firstfourNumbers" id="firstfourNumbers">0906</span><span id="lasttwoNumbers">64</span> </p>
+                    </div>
+                    <div class="inputDiv">
+                        <input id="passInput" class="maxFour" maxlength="4" type="tel">
+                    </div>
+                    <div class="resend">
+                        <button id="code" class="code">Send Code </button>  <br>
+                        <p id="otpPara" class="otpPara"> Hello</p>
+                     <button id="coder" class="coder"><a class="coder" href="#">Finish Up!</a> </button>
+                        <p id="resendP" class="resendP">resend  in <span id="mins">0</span>:<span id="secs">00</span></p>
+                    </div>
+                    <div class="cop">
+                        <p>Wrong number? Start over</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+   <script src="./otp.js"></script>
+   <script src="./plugins/wow/wow.min.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+</body>
+</html>

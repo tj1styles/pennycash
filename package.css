@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.all{
+    background-color: white;
+}
+.weekly{
+    margin-top: 10%;
+}
+.week{
+    text-align: center;
+    margin-top: 50px;
+    color: #302D2D;
+    font-size: 30px;
+}
+.weekly2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    left: 0;
+}
+.basic1{
+    background-color: #cb5858;
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+.circle{
+    background-color: white;
+    padding: 19px 22px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    margin-left: 25.9%;
+}
+.basc{
+    color: white;
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+.basc1{
+    color: white;
+    font-size: 17px;
+    line-height: 20px;
+}
+.bascc{
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.viewbtn{
+    text-decoration: none;
+    color: #302D2D;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.viewbtn:hover{
+    text-decoration: none;
+    color: #302D2D;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.inter{
+    background-color: #2f2e41;
+    padding: 40px 50px;
+    border-radius: 5px;
+    position: relative;
+}
+.circle1{
+    background-color: white;
+    padding: 19px 22px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 81.5%;
+}
+.premium{
+    background-color: #d18324;
+    padding: 40px 50px;
+    border-radius: 5px;
+    position: relative;
+}
+.circle2{
+    background-color: white;
+    padding: 19px 22px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 81.5%;
+}
+.spaceme{
+    margin-top: 10%;
+    padding: 10px 50px;
+    width: 100%;
+    background-color: #302D2D;
+}

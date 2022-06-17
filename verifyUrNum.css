@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lets_head{
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 16px;
+    font-weight: 900;
+}
+.contained{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imageDiv{
+    width: 50%;
+    background: #817979;
+    padding-top: 50px;
+    padding-bottom: 650px !important;
+    position: relative;
+}
+.inputContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 5px 0px;
+}
+.selectInput{
+    padding: 6px 0px;
+    font-size: 16px;
+    border: none;
+}
+.selectInput:focus{
+    outline: none;
+}
+.input{
+    padding: 4px 30px;
+    font-size: 16px;
+    border: none;
+}
+.input:focus{
+    outline: none;
+}
+.img{
+     position: absolute;
+     top: 200px;
+     left: 100px;
+}
+img:focus{
+
+}
+.col1{
+    width: 40%;
+    margin-left: auto;
+    padding-top: 210px;
+    padding-left: 20px;
+}
+.createBtn{
+        background: #302D2D;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+        padding: 12px 35px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        margin-left: 0px;
+
+}
+.createLink{
+    color: white;
+    text-decoration: none;
+}
+.createLink:hover{
+    color: white;
+    text-decoration: none;
+}
+.verText{
+    padding-top: 30px;
+    font-size: 19px;
+}
+.phoneText{
+    padding-top: 15px;
+    font-size: 21px;
+    padding-bottom: none;
+}

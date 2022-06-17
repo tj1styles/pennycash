@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parentContainer{
+    width: calc(100 - 225px);
+    margin-left: 320px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+.proBigDiv{
+    width: 25%;
+}
+.emtpy{
+    width: 30%;
+}
+.depositBigDiv{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.depositSmallDiv{
+    width: 100%;
+    background: #fcc17a;
+    border-radius: 12px;
+    padding-bottom: 0px;
+    
+}
+
+.withdrawSpanGroup{
+    position: absolute;
+    top: 240px;
+    left: 1050px;
+    font-size: 17px;
+    font-weight: 700;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.separator{
+    margin-top: 80px;
+    width: 7px;
+    background: #2f2e41;
+    padding: 0px 3px;
+    height: 32vh;
+}
+.membersDiv{
+    width: 50%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.weeksCasher{
+    width: 45%;
+    padding-top: 65px;
+    padding-left: 40px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.memText{
+    font-weight: 700;
+    padding-left: 18px;
+}
+.memHead{
+    width: 25%;
+    border-bottom: 3px solid #fcc17a;
+    margin-bottom: 12px;
+}
+.arrowLink{
+    color: black;
+    text-decoration: none;
+}
+.arrowLink:hover{
+    color: black;
+    text-decoration: none;
+}
+.weekHead{
+    width: 40%;
+    border-bottom: 3px solid #fcc17a;
+    margin-bottom: 12px;
+    margin-left: auto;
+}
+.memPara{
+    padding-left: 20px;
+    padding-top: 7px;
+    font-weight: 700;
+}
+.desLink{
+    color: rgb(93, 93, 238);
+    text-decoration: none;
+}
+.desLink:hover{
+    color: rgb(93, 93, 238);
+    text-decoration: none;
+}
+.depositHead{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.progressBar{
+    margin-top: 20px;
+    width: 100%;
+    background: #2f2e41;
+    
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.progressText{
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 7px;
+}
+.smallBar{
+    width: 20%;
+    padding: 18px 0px;
+    background: #b2762d;
+    border-radius: 25px;
+}
+.basicGroup{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 300px;
+    font-size: 20px;
+    top: 19px;
+    
+}
+.basicOneText{
+    font-weight: 700;
+}
+.returnDiv{
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 1020px;
+    font-size: 20px;
+}

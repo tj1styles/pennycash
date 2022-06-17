@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contained{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    padding: 40px 0px;
+}
+.wrongNo{
+    width: 100%;
+    padding-left: 150px;
+}
+.inputDiv{
+    width: 100%;
+    padding-left: 270px;
+    padding-top: 10px;
+}
+.maxFour{
+    padding: 9px 20px;
+    font-size: 20px;
+    letter-spacing: 45px;
+    text-align: center;
+}
+::placeholder{
+    font-size: 20px;
+}
+.enterOtpText{
+    width: 100%;
+    padding-left: 170px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+.resend{
+    width: 100%;
+    padding-left: 350px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.resendP{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+    display: none;
+}
+.code{
+    background: #817979;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+    border-radius: 12px;
+    margin-left: 5px;
+}
+.coder{
+    background: #a13232;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+    border-radius: 12px;
+    display: none;
+}
+.otpPara{
+    padding-left: 10px;
+    display: none;
+}
+.coder:hover{
+    background: #a13232;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-bottom: 6px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.code:hover{
+    color: white;
+    text-decoration: none;
+}
+.col1{
+    margin: auto;
+    padding-top: 100px;
+}
+.cop{
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    font-weight: 700;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.welcome{
+    width: 600px;
+    padding: 12px;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.welcomeDiv{
+    width: 100%;
+}
+.welcomeText{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    padding-left: 12px;
+}
+.picsDiv{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.signUpDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.signup{
+    width: 45%;
+    margin-right: 12px !important;
+}
+.sign_up{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px 60px;
+    margin-right: 24px;
+    margin-top: 200px;
+    border-radius: 8px;
+}
+.signin{
+    width: 45%;
+}
+.sign_in{
+    background: #a13232;
+    color: white;
+    text-decoration: none;
+    padding: 5px 60px;
+    border-radius: 8px;
+}

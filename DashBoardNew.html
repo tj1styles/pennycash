@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./plugins/animate/animate.min.css">
+    <link rel="stylesheet" href="./plugins/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./Dashboard.css">
+    <link rel="stylesheet" href="./DashBoardNew.css">
+    <title>Groups Preview</title>
+</head>
+<body>
+    <section>
+      
+        <div class="contained shadow">
+            <div class="logoDiv">
+              <img class="img1" width="70%" src="./images/Group 14.png" alt="">
+            </div>
+            <p class="basic">Basic</p>
+            <ul>
+                <li class="carrierLink">
+                    <span class="designSpan"></span>
+                   <span class="carrierSpan"><i class="fas fa-home"></i> <a class="links1" href="">DashBoard</a></span> 
+                </li>
+                <li class="carrier2">
+                   <span class="carrierSpan2">
+                       <i class="fa fa-calculator"></i>
+                       <a class="links1" href="">Add Bank</a>
+                   </span> 
+                </li>
+                 <li class="carrier2">   
+                   <span class="carrierSpan2">
+                       <i class="fa fa-gift"></i>
+                       <a href="" class="links1">Packages</a>
+                   </span>
+                </li>
+                <li class="carrier2">
+                    <span class="carrierSpan2">
+                        <i class="fas fa-wallet"></i>
+                        <a class="links1" href="">Wallet</a>
+                    </span>
+                </li>
+                <li class="carrier2">
+                  <span class="carrierSpan2">
+                       <i class="fa fa-user"></i>
+                      <a class="links1" href="">Account</a>
+                  </span>
+                </li>
+            </ul>
+        </div>
+        <div class="topDiv">
+          <div class="settingsBar shadow">
+              <div class="icon dropdown">
+                  <i id="cog" class="fa fa-cog">
+
+                  </i><i class="fas fa-caret-down"></i>
+              </div>
+          </div>
+          <div id="settingsDiv" class="settingsDiv shadow">
+             <div class="accountSettings"><i class="fa fa-cog"></i><span class="contents">Account Settings</span></div>
+             <div class="accountSettings2"><i class="fas fa-moon one"></i><span class="contents1"><a href="" class="contentsxl">Dark Mode</a> </span></div>
+             <div class="accountSettings2"><i class="fas fa-sign-out one"></i><span class="contents1"><a class="contentsxl" href="./signin.html">Log Out</a> </span></div>
+          </div>
+          <div class="detailsContainer">
+              <div class="picturesndName">
+                  <div class="imageDiv">
+                    <img class="userImg" src="./images/author-4-40x40.jpg" width="40%" alt="">
+                  </div>
+                  <div class="afterimagediv">
+                      <h2 class="welcomeText">Welcome <span id="spark">Bola</span></h2>
+                  </div>
+                  <div class="accountContainer">
+                      <div class="halfcontainer">
+                          <h5 class="walletDiv">My Wallet</h5>
+                          <h3 class="amount"><span class="nairaSpan">N</span>30,010.00</h3>
+                          <p class="depositPara">Next deposit due on 21 July</p>
+                          <span class="depositSpan shadow"><i class="fas fa-download"></i><span>Deposit</span></span><span class="withdrawSpan shadow"><i class="fas fa-upload"></i>Withdraw</span>
+                     </div>
+                     <div class="secondHalf">
+                         <img class="circleImg" src="./images/Mask group.png" width="200%" alt="">
+                     </div>
+                  </div>
+                  <div class="overall">
+                      <div class="fullContent justify-content-center">
+                          <h5 class="fullContentText">Let's take a look at your group</h5>
+                          <button class="fullContentBtn shadow"><a class="fullContentLink" href="./Group.html">Groups</a></button>
+                      </div>
+                      <div class="groupImg">
+                          <img class="imgfr" width="100%" src="./images/undraw_online_friends_re_eqaj.svg" alt="">
+                      </div>
+                  </div>
+                </section>
+
+
+
+
+
+
+    <script src="./plugins/wow/wow.min.js"></script>
+    <script src="./dashboard.js"></script>
+    <script>
+        new WOW().init()
+    </script>
+</body>
+</html>

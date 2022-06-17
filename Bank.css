@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addAccountBigDiv{
+    width: calc(100 - 225px);
+    transition: all 0.5s ease;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.addAccountSdiv{
+    width: 50%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #fcc17a;
+    padding: 28px 0px;
+}
+.nameHead{
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+.nameDiv{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.modalDiv{
+    width: 100%;
+    padding-top: 12px;
+    margin-left: 30px;
+}
+.btn{
+    background: #ffffff;
+    font-size: 23px;
+    color: #283c68;
+    font-weight: 700;
+}
+.carrier21{
+    margin-bottom: 12px;
+}
+.carrierLink21{
+    background: #d9d9d9;
+    border-left: 5px solid #d18324;
+    padding: 9px;
+    padding-left: none;
+    margin-bottom: 22px;
+}
+.carrierSpan21{
+    padding-left: 30px;
+}
+.modal-content{
+    width: 160%;
+    margin-top: 100px;
+    padding-bottom: 90px;
+    justify-content: center;
+}
+.modal-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    border-bottom: none;
+    padding-left: 120px;
+    margin-left: auto;
+    border-bottom: 1px solid #a13232;
+}
+.modal-header:focus{
+    
+}
+.modal-title{
+    transform: translateX(-110px);
+}
+.modal-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bankNameDiv{
+    margin: auto;
+    width: 50%;
+}
+.accountNameDiv{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+.BankTypeDiv{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
+.modal-footer{
+    margin: auto;
+    width: 50%;
+    transform: translateX(-100px);
+}
+.modal-footer:focus{
+
+}

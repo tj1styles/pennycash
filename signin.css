@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contained{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    text-align: center;
+}
+.signUpDiv{
+    width: 30%;
+    margin: auto;
+}
+.createAccountText{
+    width: 100%;
+}
+.imageDiv{
+    width: 100%;
+    padding-top: 20px;
+}
+.firstNameDiv{
+    width: 100%;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+.firstNameInput{
+    padding: 10px 20px;
+    margin-left: 12px;
+    text-align: left;
+    font-size: 22px;
+}
+.emailInput{
+    padding: 10px 20px;
+    margin-left: 12px;
+    text-align: left;
+    font-size: 22px;
+}
+.firstNameText{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+.createLink{
+    color: white;
+    text-decoration: none;
+}
+.createBtn{
+    background: #f66868;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    padding: 12px 60px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.lowerText{
+    margin-left: 50px;
+}

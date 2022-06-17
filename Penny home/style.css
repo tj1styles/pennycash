@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  
+}
+
+.nav-link{
+    color: #000000 !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-register{
+    background: #D18324;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 7px 20px;
+  
+}
+
+.box-shadow{
+    box-shadow: none;
+    border: none !important;
+}
+.btn-login{
+    border: 2px solid #D18324;
+    color: #D18324;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 7px 29px;
+}
+
+.div1{
+    margin-top: 5% !important;
+}
+
+.home{
+ background-image: url();
+ height: 100vh;
+ width: 100%;
+ background-size: contain;
+ background-repeat: no-repeat;
+ position: relative;
+}   
+
+.home-frame{
+position: absolute;
+left: -4rem;
+top: -9rem;
+transform: rotateZ(-6deg);
+}
+
+
+.save{
+    margin-top: 7%;
+    font-weight: 500;
+    font-size: 60px;
+    color: #000000;
+}
+.more{
+    font-weight: 400;
+    font-size: 60px;
+    color: #D18324;
+}
+
+.get-started{
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+}
+.btn-start{
+    background: #D18324;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 9px 20px;  
+}
+.check1{
+
+  border-left: 8px solid #D18324;
+}
+.check2{
+
+  border-left: 8px solid #5E5E5E;
+}
+.check3{
+
+  border-left: 8px solid #D18324;
+}
+.check4{
+    margin-top: 10px !important;
+  border-left: 8px solid #5E5E5E;
+}
+.head{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.para{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.elect{
+    color: #A13232;
+}
+
+.add{
+    margin-top: 15%;
+    position: relative;
+}
+.move{
+    position: absolute;
+    right: 10rem;
+    top: 5rem;
+    transform: rotateZ(50deg);
+}
+.carrier{
+    border-radius: 10px;
+    background: #A13232;
+    padding: 10px 20px;
+    width: 70%;
+  
+   margin-left: 20%;
+   
+}
+.carrier2{
+    border-radius: 10px;
+    background: #2A50AA;
+    padding: 5px 10px;
+    width: 70%;
+   
+   margin-left: 17%;
+}
+.carrier3{
+    border-radius: 10px;
+    background: #D18324;
+    padding: 18px 10px;
+    width: 70%;
+   
+   margin-left: 19%;
+}
+.carrier4{
+    border-radius: 10px;
+    background: #4A4444;
+    padding: 5px 10px;
+    width: 70%;
+   
+   margin-left: 17%;
+}
+
+
+.carry-head{
+    font-size: 38px;
+}
+.carry-para{
+    font-size: 18px;
+}
+.word-head{
+    margin-top: 15%;
+}
+.testimony{
+    background: #F9CC95;
+  
+}
+.point{
+    margin-top: 30%;
+    margin-bottom: 10%;
+    position: relative;
+}
+.img{
+   
+    width: 100%;
+}
+.test{
+    width: 80% !important ;
+}
+.word{
+    font-size: 40px;
+    color: #A13232;
+}
+.trust{
+    font-size: 24px;
+    color: #5E5E5E;
+}
+.testimonial{
+    font-size: 24px;
+    color: #5E5E5E;
+}
+.ceo{
+    font-size: 45px;
+    color: #2A50AA;
+}
+.ceo-name{
+    font-size: 30px;
+    color: #2A50AA;
+}
+.quote{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:;
+}
+.chev-box{
+    width: 15%;
+    position: absolute;
+    right: -3rem;
+    top: 4rem;
+}
+
+.tag1{
+position: absolute;
+right: -0rem ;
+top: 1.5rem;
+z-index: ;
+}
+
+.move{
+    align-items: center;
+}
+.help{
+    margin-top: 10%;
+}
+.help-you{
+    font-size: 24px;
+    color: black;
+}
+.questions{
+    font-size: 32px;
+    color: #A13232;
+    line-height: 10px;
+}
+
+.bg-accordion{
+    position: relative;
+    background: rgb(255, 255, 255) !important;
+    margin-bottom: 1%;
+}
+.how{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none !important;
+    color: #2F2E41;
+    font-size: 25px;
+}
+.card-header{
+    background: white;
+    position: relative;
+}
+.footer{
+    background: #F2F1F1;
+}
+.subscribe{
+    background: white;
+    border-radius: 50px;
+    height: 10vh;
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+input[type="email"] 
+{
+	font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 12px 10px 12px 90px;
+	width:60%;
+	display:inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+	font-family: 'Open Sans', sans-serif;
+    background: white;
+    color: #000000;
+}
+.sub{
+    position: relative;
+}
+.btn-subscribe{
+    background: #D18324;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 3.2rem;
+    right: 16rem;
+}
+.s{
+    margin-right: 15px;
+    width: 3% !important;
+
+}
+
